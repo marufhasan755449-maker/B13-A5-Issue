@@ -8,7 +8,7 @@ document.getElementById("Sign-btn").addEventListener("click",function(){
 
     if(UserName==="admin" && password==="admin123"){
         alert("Sign In Success");
-        window.location.assign("./home.html")
+        window.location.assign("home.html")
     }
     else{
         alert("Sign In Failed");
